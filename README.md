@@ -137,7 +137,7 @@ You will now edit the `mcpServers` section of the configuration file.
         "--rm",
         "-e",
         "DATABASE_URI",
-        "crystaldba/postgres-mcp",
+        "mujaiah/postgres-mcp:latest",
         "--access-mode=unrestricted"
       ],
       "env": {
